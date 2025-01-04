@@ -64,7 +64,7 @@ EOF
 cat << EOF > /etc/ipsec.secrets
 : RSA "server-key.pem"
 # your_username : EAP "your_password" - используйте этот формат записи для создания нового пользователя
-# sudo systemctl restart strongswan-starter - Каждый раз после добавления нового пользователя, перезагружайте StrongSwan этой командой
+# sudo systemctl restart strongswan-starter - Каждый раз после добавления нового пользователя перезагружайте StrongSwan этой командой
 EOF
 
 
