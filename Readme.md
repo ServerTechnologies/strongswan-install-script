@@ -8,7 +8,7 @@
 ## Установка.
 Скачайте скрипт
 ```
-wget
+wget https://raw.githubusercontent.com/ServerTechnologies/strongswan-install-script/refs/heads/main/startswan.sh
 ```
 Перед запуском скрипта узнайте свой сетевой интерфейс, используя команду
 ```
