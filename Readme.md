@@ -14,7 +14,9 @@ sudo apt upgrade -y
 
 В процессе вы увидите несколько подобных окон, просто жмите Enter.
 Примеры окон:
-
+![Первый экран](https://raw.githubusercontent.com/ServerTechnologies/strongswan-install-script/refs/heads/main/images/first-screen.png)
+![Второй экран](https://raw.githubusercontent.com/ServerTechnologies/strongswan-install-script/refs/heads/main/images/second-screen.png)
+![Третий экран](https://raw.githubusercontent.com/ServerTechnologies/strongswan-install-script/refs/heads/main/images/thrid-screen.png)
 
 После окончания обновления перезагрузите сервер следующей командой:
 ```
@@ -23,7 +25,7 @@ sudo reboot
 
 Соединение с сервером оборвется, так как он ушел в перезагрузку. Подождите пару минут и подключитесь снова.
 
-### Устанеовка скрипта
+### Установка скрипта
 Скачайте скрипт
 ```
 wget https://raw.githubusercontent.com/ServerTechnologies/strongswan-install-script/refs/heads/main/startswan.sh
