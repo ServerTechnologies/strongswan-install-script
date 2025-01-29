@@ -12,8 +12,8 @@ sudo apt update
 sudo apt upgrade -y
 ```
 
-В процессе вы увидите несколько подобных окон, просто жмите Enter.
-Примеры окон:
+В процессе вы увидите несколько подобных окон, просто жмите Enter. \
+Примеры окон:\
 ![Первый экран](https://raw.githubusercontent.com/ServerTechnologies/strongswan-install-script/refs/heads/main/images/first-screen.png)
 ![Второй экран](https://raw.githubusercontent.com/ServerTechnologies/strongswan-install-script/refs/heads/main/images/second-screen.png)
 ![Третий экран](https://raw.githubusercontent.com/ServerTechnologies/strongswan-install-script/refs/heads/main/images/thrid-screen.png)
