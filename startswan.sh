@@ -3,7 +3,7 @@
 apt update
 # здесь eth0 менять не нужно
 myip=$(wget -qO - eth0.me)
-sudo apt install strongswan strongswan-pki libcharon-extra-plugins libcharon-extauth-plugins libstrongswan-extra-plugins ufw -y
+sudo apt install strongswan strongswan-pki libcharon-extra-plugins libcharon-extauth-plugins libtss2-tcti-tabrmd0 libstrongswan-extra-plugins ufw -y
 mkdir -p ~/pki/cacerts
 mkdir -p ~/pki/certs
 mkdir -p ~/pki/private
