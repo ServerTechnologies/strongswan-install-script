@@ -3,7 +3,7 @@
 apt update
 # здесь eth0 менять не нужно
 myip=$(wget -qO - eth0.me)
-sudo apt install strongswan strongswan-pki libcharon-extra-plugins libcharon-extauth-plugins libtss2-tcti-tabrmd0 libstrongswan-extra-plugins ufw -y
+sudo apt install strongswan strongswan-pki libcharon-extra-plugins libcharon-extauth-plugins libtss2-tcti-tabrmd0 libstrongswan-extra-plugins ufw libstrongswan-standard-plugins -y
 mkdir -p ~/pki/cacerts
 mkdir -p ~/pki/certs
 mkdir -p ~/pki/private
@@ -62,7 +62,7 @@ conn ikev2-vpn
 EOF
 
 cat << EOF > /etc/ipsec.secrets
-: RSA "server-key.pem"
+: RSA server-key.pem
 # your_username : EAP "your_password" - используйте этот формат записи для создания нового пользователя
 # sudo systemctl restart strongswan-starter - Каждый раз после добавления нового пользователя перезагружайте StrongSwan этой командой
 EOF
